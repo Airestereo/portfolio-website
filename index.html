@@ -21,13 +21,21 @@
       <!-- Header -->
       <header id="header">
         <div class="logo">
-          <span>
-            <i
-              onclick="myFunction()"
+          
+            <spam
               class="fas fa-play"
-              style="font-size:36px;color:yellow"
-            ></i>
-          </span>
+              style="font-size:45px;color:yellow;">
+              <audio autoplay>
+                <source src="audio.mp3">
+                  <source src="audio.ogg">
+                    <source src="audio.wav">
+                      <source src="audio.mpeg">
+                      
+                
+                
+              </audio></spam>
+            </spam>
+          
         </div>
         <div class="content">
           <div class="inner">
@@ -511,5 +519,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="/audiojs/audio.min.js"></script>
+    <script>
+      audiojs.events.ready(function() {
+        var as = audiojs.createAll();
+      });
+    </script>
   </body>
 </html>
